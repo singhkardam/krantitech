@@ -1,0 +1,57 @@
+{
+    "id": 6,
+    "name": "Job1",
+    "parentId": 0,
+    "chainJob": "ONDCDVOZHRAVACO",
+    "index": 1,
+    "external": false,
+    "children": [
+        {
+            "id": 7,
+            "name": "Job2",
+            "parentId": 6,
+            "chainJob": "WUPVMXKCRYRUVNR",
+            "index": 1,
+            "external": false,
+            "children":[
+                {
+                    "id": 8,
+                    "name": "Job3",
+                    "parentId": 7,
+                    "chainJob": "QNGGVKICRDNUFAD",
+                    "index": 2,
+                    "external": false,
+                    "children": null
+                  },
+                  {
+                    "id": 10,
+                    "name": "Job6",
+                    "parentId": 8,
+                    "chainJob": "OCYUAHUJBCADYYD",
+                    "index": 3,
+                    "external": false,
+                    "children": null
+                  }                
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Job4",
+            "parentId": 6,
+            "chainJob": "WWFLTFYNTEBVHYQ",
+            "index": 1,
+            "external": false,
+            "children": [
+                  {
+                    "id": 10,
+                    "name": "Job6",
+                    "parentId": 9,
+                    "chainJob": "OCYUAHUJBCADYYD",
+                    "index": 2,
+                    "external": false,
+                    "children": null
+                  }
+            ]
+        }      
+    ]
+}

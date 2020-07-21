@@ -1,0 +1,109 @@
+$primary-color: #FF9800;
+mat-card{
+    width: 90%;
+    margin: 2rem auto;
+
+    div{
+        margin-left: 15px;
+        position: relative;
+        &:first-child{
+            border: 1px solid $primary-color;
+            background: antiquewhite;
+            padding: 3px 5px;
+            margin-left: 0px;
+            font-weight: 500;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 2px;
+                height: 120px;
+                background: $primary-color;
+                z-index: 9999;
+                top: 100%;
+            }
+        }
+
+        &:nth-child(2){
+            padding-left: 5px;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 8px;
+                height: 2px;
+                background: $primary-color;
+                z-index: 9999;
+                top: 0%;
+                left: -8px;
+                bottom: 0%;
+                margin: auto;
+            }
+        }
+        &:nth-child(3){
+            padding-left: 30px;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 7px;
+                height: 14px;
+                background: transparent;
+                z-index: 9999;
+                top: -10px;
+                bottom: 0px;
+                left: 20px;
+                margin: auto;
+                border-bottom: 1px solid $primary-color;
+                border-left: 1px solid $primary-color;
+            }
+        }
+        &:nth-child(4){
+            padding-left: 45px;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 7px;
+                height: 14px;
+                background: transparent;
+                z-index: 9999;
+                top: -10px;
+                bottom: 0px;
+                left: 35px;
+                margin: auto;
+                border-bottom: 1px solid $primary-color;
+                border-left: 1px solid $primary-color;
+            }
+        }
+        &:nth-child(5){
+            margin-top: 15px;
+            padding-left: 5px;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 8px;
+                height: 2px;
+                background: $primary-color;
+                z-index: 9999;
+                top: 0%;
+                left: -8px;
+                bottom: 0%;
+                margin: auto;
+            }
+        }
+        &:nth-child(6){
+            padding-left: 30px;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 7px;
+                height: 14px;
+                background: transparent;
+                z-index: 9999;
+                top: -10px;
+                bottom: 0px;
+                left: 20px;
+                margin: auto;
+                border-bottom: 1px solid $primary-color;
+                border-left: 1px solid $primary-color;
+            }
+        }
+    }
+}
