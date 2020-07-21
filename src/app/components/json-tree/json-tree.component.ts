@@ -36,14 +36,14 @@ export class JsonTreeComponent implements OnInit {
              iterateObject(obj[prop]);
            } else {
              if(prop == "name") {
-                var a1 = {name:obj[prop]};          
+                var name = {name:obj[prop]};          
              }
              if(prop == "chainJob") {
-              var a2 = {chainJob:obj[prop]};
+              var chainJob = {chainJob:obj[prop]};
               flag = true;      
               if(flag){
-                var a3 = Object.assign(a1,a2);
-                filterArray.push(a3);
+                var pushObject = Object.assign(name,chainJob);
+                filterArray.push(pushObject);
               }        
              }
 
